@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  background-color: #e7b4ba;
+  width: 100%;
+  height: 25%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 250px;
+  height: auto;
+}
+.buscador {
+  padding: 10px 16px 16px 16px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 10px 0px 10px;
+  padding: 10px;
+  list-style: none;
+  width: 100%;
+  
+}
+
+.case img {
+  width: 115%;
+  height: auto;
+}
+
+body {
+  background-color: #f7e6e8;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+.case-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  width: 85%;
+}
+.case {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 40px;
+  width: 15%;
+  background-size: contain;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  box-sizing: content-box;
+}
+h3 {
+  color: #c7505f;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+footer {
+  background-color: #e7b4ba;
+  color: #c7505f;
+  text-align: center;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+h1 {
+  color: #c7505f;
+  text-align: center;
+  padding: 16px 16px 0px 16px;
+  font-size: 55px;
+  font-style: italic;
+  text-decoration: solid;
+  font-weight: bold;
+}
+.btn:focus{
+  box-shadow: black 2px 2px 2px 2px;
+}
+.btn {
+  background-color: #c7505f;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.contacto-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+.contacto-listing img {
+  width: 65%;
+  height: auto;
+}
+.contacto-wpp {
+  
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 75px;
+  padding: 40px;
+  width: 25%;
+  background-size: contain;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  box-sizing: content-box;
+}
+.contacto-telefono {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 75px;
+  padding: 40px;
+  width: 25%;
+  background-size: contain;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  box-sizing: content-box;
+}
+.contacto-mail {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 75px;
+  padding: 40px;
+  width: 25%;
+  background-size: contain;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  box-sizing: content-box;
+}
+.contacto-ubicacion {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 75px;
+  padding: 40px;
+  width: 25%;
+  background-size: contain;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  box-sizing: content-box;
+}
+
+a {
+  color: #c7505f;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+}
+.phone-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+.phone {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 15%;
+  box-sizing: content-box;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+}
+.phone img {
+  width: 100%;
+  height: auto;
+}
+.repuestos-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+.repuestos-listing img {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+}
+.repuesto-pantalla {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 30%;
+  box-sizing: content-box;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+}
+.repuesto-bateria {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 30%;
+  box-sizing: content-box;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+}
+
+.categorias {
+  display: grid;
+  grid-template-columns: 41% 41%;
+  column-gap: 15px;
+  justify-items: end;
+  padding: 10px;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.categoria-fundas {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: content-box;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 24px;
+}
+
+
+.categoria-repuestos {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: content-box;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 24px;
+}
+.categoria-accesorios {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: content-box;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 24px;
+}
+.categoria-telefonos {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: content-box;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 24px;
+}
+.login-signin{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+  width: 60%;
+  background-color: #e7b4ba;
+  border-radius: 10px;
+}
+  
+@media (max-width: 992px){
+  .categorias {
+    display: grid;
+    grid-template-columns: 41%;
+    column-gap: 15px;
+    justify-items: end;
+    padding: 10px;
+    width: 100%;
+  }
+  .repuestos-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    width: 50%;
+  }
+}
