@@ -32,7 +32,6 @@ header {
   padding: 10px;
   list-style: none;
   width: 100%;
-  
 }
 
 .case img {
@@ -88,7 +87,7 @@ h1 {
   text-decoration: solid;
   font-weight: bold;
 }
-.btn:focus{
+.btn:focus {
   box-shadow: black 2px 2px 2px 2px;
 }
 .btn {
@@ -100,6 +99,19 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.carrito__btn {
+  background-color: #c7505f;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 10px;
@@ -117,7 +129,6 @@ h1 {
   height: auto;
 }
 .contacto-wpp {
-  
   background-color: #e7b4ba;
   border-radius: 6px;
   margin: 75px;
@@ -186,15 +197,16 @@ a:hover {
   border-radius: 6px;
   margin: 1rem;
   padding: 1rem;
-  width: 15%;
+  width: 20%;
   box-sizing: content-box;
   box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
 }
-.phone img {
-  width: 100%;
+.phone__foto {
+  width: 80%;
   height: auto;
+  padding: 10px;
 }
 .repuestos-listing {
   display: flex;
@@ -261,7 +273,6 @@ main {
   font-size: 24px;
 }
 
-
 .categoria-repuestos {
   background-color: #e7b4ba;
   border-radius: 6px;
@@ -298,7 +309,7 @@ main {
   text-align: center;
   font-size: 24px;
 }
-.login-signin{
+.login-signin {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -307,8 +318,8 @@ main {
   background-color: #e7b4ba;
   border-radius: 10px;
 }
-  
-@media (max-width: 992px){
+
+@media (max-width: 992px) {
   .categorias {
     display: grid;
     grid-template-columns: 41%;
@@ -318,10 +329,85 @@ main {
     width: 100%;
   }
   .repuestos-listing {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 41% 41%;
+    column-gap: 15px;
+    justify-items: end;
+    padding: 10px;
+    width: 100%;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    list-style: none;
+    width: 100%;
+  }
+  .categorias {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 15px;
+    justify-items: center;
     justify-content: space-around;
     padding: 10px;
-    width: 50%;
+    width: 100%;
+  }
+  .categoria-fundas img {
+    width: 100%;
+  }
+  .categoria-repuestos img {
+    width: 100%;
+  }
+  .categoria-accesorios img {
+    width: 100%;
+  }
+  .categoria-telefonos img {
+    width: 100%;
+  }
+  .phone-listing {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 15px;
+    justify-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  .phone {
+    background-color: #e7b4ba;
+    border-radius: 6px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+    box-sizing: content-box;
+    box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  }
+  .case-listing {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    column-gap: 15px;
+    justify-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  .case {
+    width: 80%;
+  }
+  .repuestos-listing {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    column-gap: 15px;
+    justify-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  .repuesto-bateria {
+    width: 100%;
+  }
+  .repuesto-pantalla {
+    width: 100%;
   }
 }
