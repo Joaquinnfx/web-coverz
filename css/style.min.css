@@ -1,0 +1,299 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap);
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+footer,
+header {
+  background-color: #e7b4ba;
+  width: 100%;
+}
+body,
+h1 {
+  font-style: italic;
+}
+a,
+h1,
+h2,
+h3 {
+  color: #c7505f;
+  font-weight: 700;
+}
+.menu,
+footer,
+header {
+  width: 100%;
+}
+.categorias,
+footer,
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+.login-signin,
+.logo,
+.menu {
+  display: flex;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+header {
+  height: 25%;
+}
+body {
+  background-color: #f7e6e8;
+}
+footer {
+  color: #c7505f;
+  padding: 0.5rem;
+}
+h1 {
+  padding: 16px 16px 0;
+  font-size: 55px;
+  text-decoration: solid;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #f7e6e8;
+}
+.logo {
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 250px;
+  height: auto;
+}
+.menu {
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 10px;
+  padding: 10px;
+  list-style: none;
+}
+.buscador {
+  padding: 10px 16px 16px;
+}
+.accesorios-listing,
+.case-listing,
+.categorias-listing,
+.contacto-listing,
+.phone-listing,
+.repuestos-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+.case,
+.contacto-mail,
+.contacto-telefono,
+.contacto-ubicacion,
+.contacto-wpp {
+  padding: 40px;
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  box-sizing: content-box;
+}
+.case {
+  margin: 10px;
+  width: 15%;
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+}
+.accesorios:hover,
+.case:hover,
+.categorias:hover,
+.phone:hover,
+.repuestos:hover {
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+}
+.case img {
+  width: 115%;
+  height: auto;
+}
+.contacto-listing img {
+  width: 65%;
+  height: auto;
+}
+.contacto-mail,
+.contacto-telefono,
+.contacto-ubicacion,
+.contacto-wpp {
+  margin: 75px;
+  width: 25%;
+  background-size: contain;
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+}
+.accesorios,
+.phone,
+.repuestos {
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+}
+.accesorios,
+.phone {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 20%;
+  box-sizing: content-box;
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+}
+.accesorios img,
+.phone__foto {
+  width: 80%;
+  height: auto;
+  padding: 10px;
+}
+.categorias,
+.repuestos {
+  background-color: #e7b4ba;
+  border-radius: 6px;
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: content-box;
+}
+.repuestos {
+  width: 200px;
+  height: auto;
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+}
+.repuestos-listing img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.categorias {
+  box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+}
+.login-signin {
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 50px;
+  width: 100%;
+}
+.carrito-button,
+.login-button,
+.menu-button {
+  color: #fff;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.carrito-button,
+.menu-button {
+  background-color: #c7505f;
+  border: none;
+  border-radius: 10px;
+}
+.menu-button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+.carrito-button:hover {
+  transform: rotate(-5deg);
+  transition-duration: 0.3s;
+}
+.login-button {
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+}
+.login-button:hover {
+  background-color: #c7505f;
+}
+@media (max-width: 992px) {
+  .categorias {
+    display: grid;
+    grid-template-columns: 41%;
+    justify-items: end;
+  }
+  .repuestos-listing {
+    display: grid;
+    grid-template-columns: 41% 41%;
+    justify-items: end;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    margin: 0 10px;
+    padding: 10px;
+    list-style: none;
+    width: 100%;
+  }
+  .categorias,
+  .phone-listing {
+    justify-items: center;
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    column-gap: 15px;
+  }
+  .categorias {
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+  }
+  .categoria-accesorios img,
+  .categoria-fundas img,
+  .categoria-repuestos img,
+  .categoria-telefonos img,
+  .repuesto-bateria,
+  .repuesto-pantalla {
+    width: 100%;
+  }
+  .phone-listing {
+    grid-template-columns: 45% 45%;
+  }
+  .phone {
+    background-color: #e7b4ba;
+    border-radius: 6px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+    box-sizing: content-box;
+    box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 8px 8px 13px -1px rgba(0, 0, 0, 0.3);
+  }
+  .case-listing,
+  .repuestos-listing {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    column-gap: 15px;
+    justify-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  .case {
+    width: 80%;
+  }
+}

@@ -38,6 +38,12 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  color: #c7505f;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
 h3 {
   color: #c7505f;
   font-size: 20px;
@@ -258,6 +264,7 @@ a:hover {
   text-align: center;
   font-size: 24px;
 }
+
 
 .categorias:hover {
   transform: scale(1.05);
