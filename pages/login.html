@@ -11,26 +11,35 @@
       href="assets/Logo_Coverz.jpg"
       type="image/x-icon"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <header>
         <h1>Login/Sign in</h1>
-        <nav >
-            <ul class ="menu">
-             
-              <li><a href="../index.html" class="menu-button">Inicio</a> </li>
-              <li><a href="./fundas.html" class="menu-button">Fundas</a> </li>
-              <li><a href="./accesorios.html" class ="menu-button">Accesorios</a> </li>
-              <li><a href="./repuestos.html" class ="menu-button">Repuestos</a> </li>
-              <li><a href="./telefonos.html" class="menu-button">Teléfonos</a> </li>
-              <li><a href="./login.html" class="menu-button">Login</a> </li>
-              <li><a href="./carrito.html" class="menu-button">Carrito</a> </li>
-  
-            </ul>
-            
-        </nav>
+        <div class="dropdown">
+      <button id="btn-dd" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menú
+      </button>
+      <ul class="dropdown-menu" style="">
+        <li><a class="dropdown-item" href="/index.html">Inicio</a></li>
+        <li><a class="dropdown-item" href="fundas.html">Fundas</a></li>
+        <li><a class="dropdown-item" href="repuestos.html">Repuestos</a></li>
+        <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+        <li><a class="dropdown-item" href="telefonos.html">Telefonos</a></li>
+        <li><a class="dropdown-item" href="carrito.html">Carrito</a></li>
+        <li><a class="dropdown-item" href="login.html">Usuario</a></li>
+        <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+
+    <form class="buscador" action="#" method="GET">
+        <input type="text" name="q" placeholder="Buscar..." />
+      </form>
     </header>
-    <main>
+    
+    <main class="contenedor">
         <div class="login-signin">
         <form class="login-form">
             <h2>Iniciar sesión</h2>
@@ -57,7 +66,7 @@
         </div>
 
 
-        <script src="/Js/login.js"></script>
+       
 
 
     </main>
@@ -68,6 +77,6 @@
     </footer>
 
     
-    
+     <script src="/Js/login.js"></script>
 </body>
 </html>

@@ -12,77 +12,103 @@
       href="assets/Logo_Coverz.jpg"
       type="image/x-icon"
     />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
   <body>
     <header>
       <h1>Accesorios</h1>
-      <nav> 
-        <ul class="menu">
-          
-          <li><a href="../index.html" class="menu-button">Inicio</a> </li>
-          <li><a href="./fundas.html" class="menu-button">Fundas</a> </li>
-          <li><a href="./accesorios.html" class ="menu-button">Accesorios</a> </li>
-          <li><a href="./repuestos.html" class ="menu-button">Repuestos</a> </li>
-          <li><a href="./telefonos.html" class="menu-button">Teléfonos</a> </li>
-          <li><a href="./login.html" class="menu-button">Login</a> </li>
-          <li><a href="./carrito.html" class="menu-button">Carrito</a> </li>
-
-        </ul>
-        
-      </nav>
+       <div class="dropdown">
+      <button id="btn-dd" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menú
+      </button>
+      <ul class="dropdown-menu" style="">
+        <li><a class="dropdown-item" href="/index.html">Inicio</a></li>
+        <li><a class="dropdown-item" href="fundas.html">Fundas</a></li>
+        <li><a class="dropdown-item" href="repuestos.html">Repuestos</a></li>
+        <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+        <li><a class="dropdown-item" href="telefonos.html">Telefonos</a></li>
+        <li><a class="dropdown-item" href="carrito.html">Carrito</a></li>
+        <li><a class="dropdown-item" href="login.html">Usuario</a></li>
+        <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
       <form class="buscador" action="#" method="GET">
         <input type="text" name="q" placeholder="Buscar..." />
         
       </form>
     </header>
-    <main>
+    <main class="contenedor">
       <section class="accesorios-listing">
-            <article class="accesorios">
-                <img src="../assets/Cargador-Iphone-3-Photoroom.png" alt="Cargador Iphone"/>
-                <h3>Cargador Apple</h3>
-                <br/>
-                <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class="accesorios">
-                <img src="../assets/cargador_samsung-Photoroom.png" alt="Cargador Samsung"/>
-                <h3>Cargador Samsung</h3>
-                <br/>
-                <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class="accesorios">
-                <img src="../assets/images-Photoroom.png" alt="Airpods 4"/>
-                <h3>AirPods 4</h3>
-                <br/>
-                <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class="accesorios">
-                <img src="../assets/arodeluz.jpg" alt="Aro de Luz"/>
-                <h3>Aro de Luz para celular</h3>
-                <br/>
-                <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class="accesorios">
-                <img src="../assets/Soporte-celu-Photoroom.png" alt="Soporte de mesa"/>
-                <h3>Soporte de mesa regulable</h3>
-                <br/>
-                <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class="accesorios">
-                <img src="../assets/Soporte-sopapa-Photoroom.png" alt="Soporte sopapa"/>
-                <h3>Soporte sopapa</h3>
-                <br/>
-                <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class="accesorios">
-                <img src="../assets/Correa-celu-Photoroom.png" alt="Correa para celular"/>
-                <h3>Correa para celular</h3>
-                <br/>
-                <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
+        <!--Producto-->
+        <div class="card" style="width: 14rem;">
+            <img src="/assets/Cargador-Iphone-3-Photoroom.png" class="card-img-top" alt="Cargador Iphone">
+                <div class="card-body">
+                    <h2 class="card-title">Cargador Apple</h2>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+        <!--Producto-->
+           <div class="card" style="width: 14rem;">
+            <img src="/assets/cargador_samsung-Photoroom.png" class="card-img-top" alt="Cargador Samsung">
+                <div class="card-body">
+                    <h2 class="card-title">Cargador Samsung</h2>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+        <!--Producto-->    
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/images-Photoroom.png" class="card-img-top" alt="Airpods 4">
+                <div class="card-body">
+                    <h2 class="card-title">Airpods 4</h2>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+        <!--Producto-->    
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/arodeluz.jpg" class="card-img-top" alt="Aro de luz">
+                <div class="card-body">
+                    <h2 class="card-title">Aro de luz para celular</h2>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+        <!--Producto-->    
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/Soporte-celu-Photoroom.png" class="card-img-top" alt="Soporte regulable">
+                <div class="card-body">
+                    <h2 class="card-title">Soporte de mesa regulable</h2>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+        <!--Producto-->   
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/Soporte-sopapa-Photoroom.png" class="card-img-top" alt="Soporte sopapa">
+                <div class="card-body">
+                    <h2 class="card-title">Soporte sopapa</h2>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+        <!--Producto-->    
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/Correa-celu-Photoroom.png" class="card-img-top" alt="Correa">
+                <div class="card-body">
+                    <h2 class="card-title">Correa para celular</h2>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            
       </section>
       
-      <script src="/Js/listProducts/accesorios.js"></script>
+      
 
     </main>
     <footer>
@@ -90,5 +116,7 @@
       <em>/ Envios gratis a todo el país</em>
       <p>© 2025 Coverz. Todos los derechos reservados.</p>
     </footer>
+    
+    <script src="/Js/listProducts/accesorios.js"></script>
   </body>
 </html>

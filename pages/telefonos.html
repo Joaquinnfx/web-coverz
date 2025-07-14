@@ -12,95 +12,108 @@
       href="assets/Logo_Coverz.jpg"
       type="image/x-icon"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <header>
       <h1>Teléfonos</h1>
-      <nav>
-        <ul class="menu">
-          <li><a href="../index.html" class="menu-button">Inicio</a></li>
-          <li><a href="./fundas.html" class="menu-button">Fundas</a></li>
-          <li><a href="./accesorios.html" class="menu-button">Accesorios</a></li>
-          <li><a href="./repuestos.html" class="menu-button">Repuestos</a></li>
-          <li><a href="./telefonos.html" class="menu-button">Teléfonos</a></li>
-          <li><a href="./login.html" class="menu-button">Login</a></li>
-          <li><a href="./carrito.html" class="menu-button">Carrito</a></li>
-        </ul>
-      </nav>
+      <div class="dropdown">
+      <button id="btn-dd" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menú
+      </button>
+      <ul class="dropdown-menu" style="">
+        <li><a class="dropdown-item" href="/index.html">Inicio</a></li>
+        <li><a class="dropdown-item" href="fundas.html">Fundas</a></li>
+        <li><a class="dropdown-item" href="repuestos.html">Repuestos</a></li>
+        <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+        <li><a class="dropdown-item" href="telefonos.html">Telefonos</a></li>
+        <li><a class="dropdown-item" href="carrito.html">Carrito</a></li>
+        <li><a class="dropdown-item" href="login.html">Usuario</a></li>
+        <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
       <form class="buscador" action="#" method="GET">
         <input type="text" name="q" placeholder="Buscar..." />
 
          
       </form>
     </header>
-    <section class="phone-listing">
-      <article class="phone">
-        <h3>Iphone 14 Pro Max</h3>
-        <br />
-        <img
-          src="../assets/iphone-14-pro-max.png"
-          class="phone__foto"
-          alt="Iphone 14 Pro Max"
-        />
-        <a href="Carrito.HTML" class="carrito-button">Agregar al carrito</a>
-      </article>
-      <article class="phone">
-        <h3>Iphone 13</h3>
-        <br />
-        <img
-          src="../assets/iphone-13-Photoroom.png"
-          class="phone__foto"
-          alt="Iphone 13"
-        />
-        <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-      </article>
-      <article class="phone">
-        <h3>Iphone 15 Pro Max</h3>
-        <br />
-        <img
-          src="../assets/iphone-15-pro-max-Photoroom.png"
-          class="phone__foto"
-          alt="Iphone 15 Pro Max"
-        />
-        <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-      </article>
-      <article class="phone">
-        <h3>Samsung Galaxy S21</h3>
-        <br />
-        <img
-          src="../assets/samsung-s21-Photoroom.png"
-          class="phone__foto"
-          alt="Samsung Galaxy S21"
-        />
-        <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-      </article>
-      <article class="phone">
-        <h3>Samsung Galaxy S24 Ultra</h3>
-        <br />
-        <img
-          src="../assets/samsung-s24-ultra-Photoroom.png" class="phone__foto" alt="Samsung Galaxy S24 Ultra"/>
-        <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-      </article>
-      <article class="phone">
-        <h3>Motorola G54</h3>
-        <br />
-        <img src="../assets/moto-g54-Photoroom.png" class="phone__foto" alt="Motorola G54" />
-        <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-      </article>
-      <article class="phone">
-        <h3>Motorola G85</h3>
-        <br />
-        <img src="../assets/moto-g85-Photoroom.png"class="phone__foto"  alt="Motorola G85" />
-        <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-      </article>
+    <main class="contenedor">
+    <section class="phone-listing" id="listProducts">
+      <!--Producto-->
+      <div class="card" style="width: 18rem;" id="product">
+            <img src="/assets/iphone-14-pro-max.png" class="card-img-top" alt="Iphone">
+                <div class="card-body">
+                    <h3 class="card-title">Iphone 14 Pro Max</h3>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+      <!--Producto-->
+            <div class="card" style="width: 18rem;" id="product">
+            <img src="/assets/iphone-13-Photoroom.png" class="card-img-top" alt="Iphone">
+                <div class="card-body">
+                    <h3 class="card-title">Iphone 13</h3>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+      <!--Producto-->
+            <div class="card" style="width: 18rem;" id="product">
+            <img src="/assets/iphone-15-pro-max-Photoroom.png" class="card-img-top" alt="Iphone">
+                <div class="card-body">
+                    <h3 class="card-title">Iphone 15 Pro Max</h3>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+      <!--Producto-->
+            <div class="card" style="width: 18rem;" id="product">
+            <img src="/assets/samsung-s21-Photoroom.png" class="card-img-top" alt="Samsung">
+                <div class="card-body">
+                    <h3 class="card-title">Samsung Galaxy S21</h3>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+      <!--Producto-->
+            <div class="card" style="width: 18rem;" id="product">
+            <img src="/assets/samsung-s24-ultra-Photoroom.png" class="card-img-top" alt="Samsung">
+                <div class="card-body">
+                    <h3 class="card-title">Samsung Galaxy S24 Ultra</h3>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+      <!--Producto-->     
+            <div class="card" style="width: 18rem;" id="product">
+            <img src="/assets/moto-g54-Photoroom.png" class="card-img-top" alt="Motorola">
+                <div class="card-body">
+                    <h3 class="card-title">Motorola G54</h3>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+      <!--Producto-->      
+            <div class="card" style="width: 18rem;" id="product">
+            <img src="/assets/moto-g85-Photoroom.png" class="card-img-top" alt="Motorola">
+                <div class="card-body">
+                    <h3 class="card-title">Motorola G85</h3>
+                        <p class="card-text"></p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+      
     </section>
-
-    <script src="/Js/listProducts/telefonos.js"></script>
-
+</main>
     <footer>
       <a href="contacto.html"> Contacto</a>
       <em>/ Envios gratis a todo el país</em>
       <p>© 2025 Coverz. Todos los derechos reservados.</p>
     </footer>
+    <script src="/Js/listProducts/telefonos.js"></script>
+    <script src="/Js/carrito.js"></script>
   </body>
 </html>

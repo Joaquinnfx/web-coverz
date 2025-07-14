@@ -231,6 +231,7 @@ a:hover {
   background-color: #c7505f;
 }
 @media (max-width: 992px) {
+  
   .categorias {
     display: grid;
     grid-template-columns: 41%;

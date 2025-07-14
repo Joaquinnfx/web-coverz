@@ -1,89 +1,108 @@
 <!DOCTYPE html>
-<html lang="es"> 
-<head>
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta name="description" content="Fundas para celulares en Mar del Plata: modelos de silicona, con charms, personalizadas y más. Protegé tu celular con estilo."> 
-    <meta name="keywords" content="fundas, celular, venta">  
-    <title>Fundas | -Coverz-</title>  
-    <link rel="stylesheet" href="../css/style.css">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fundas para celulares en Mar del Plata: modelos de silicona, con charms, personalizadas y más. Protegé tu celular con estilo."
+    />
+    <meta name="keywords" content="fundas, celular, venta" />
+    <title>Fundas | -Coverz-</title>
+    <link rel="stylesheet" href="../css/style.css" />
     <link
       rel="shortcut icon"
       href="assets/Logo_Coverz.jpg"
       type="image/x-icon"
     />
-</head>
-<body>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
     <header> 
         <h1>Fundas</h1>
-        <nav> 
-            <ul class="menu">
-              
-              <li><a href="../index.html" class="menu-button">Inicio</a> </li>
-              <li><a href="./fundas.html" class="menu-button">Fundas</a> </li>
-              <li><a href="./accesorios.html" class ="menu-button">Accesorios</a> </li>
-              <li><a href="./repuestos.html" class ="menu-button">Repuestos</a> </li>
-              <li><a href="./telefonos.html" class="menu-button">Teléfonos</a> </li>
-              <li><a href="./login.html" class="menu-button">Login</a> </li>
-              <li><a href="./carrito.html" class="menu-button">Carrito</a> </li>
-    
-            </ul>
-            
-          </nav>
+        <div class="dropdown">
+      <button id="btn-dd" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menú
+      </button>
+      <ul class="dropdown-menu" style="">
+        <li><a class="dropdown-item" href="/index.html">Inicio</a></li>
+        <li><a class="dropdown-item" href="fundas.html">Fundas</a></li>
+        <li><a class="dropdown-item" href="repuestos.html">Repuestos</a></li>
+        <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+        <li><a class="dropdown-item" href="telefonos.html">Telefonos</a></li>
+        <li><a class="dropdown-item" href="carrito.html">Carrito</a></li>
+        <li><a class="dropdown-item" href="login.html">Usuario</a></li>
+        <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
         <form class="buscador" action="#" method="GET">
             <input type="text" name="q" placeholder="Buscar...">  
         </form>
             
     </header>
     
-    <main>
+    <main class="contenedor">
         
         <section class="case-listing">
-            <article class="case">
-                <img src="../assets/funda_negra-Photoroom.png" alt="Funda 1"/>
-                <h3>Elegancia Negra</h3>
-                <br/>
-                <em>Siempre es mejor en negro</em>
-                <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class="case">
-                <img src="../assets/funda_astronauta-Photoroom.png" alt="Funda 2"/>
-                <h3 class="case__title">Astronauta Espacial</h3>
-                <br/>
-                <em>Esta funda te llevará al espacio</em>
-                <a href="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class="case">
-                <img src="../assets/funda_silicona-Photoroom.png" alt="Funda 3"/>
-                <h3 class="case__title">Silicon case</h3>
-                <br/>
-                <em> Las mejores fundas de silicona </em>
-                <a href ="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class ="case">
-                <img src="../assets/Fundas_puffer-Photoroom.png" alt="Funda 4"/>
-                <h3 class="case__title">Puffer</h3>
-                <br/>
-                <em>Encontrá tu modelo Puffer</em>
-                <a href ="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class ="case">
-                <img src="../assets/Funda_diseñoresina-Photoroom.png" alt="Funda 5"/>
-                <h3 class="case__title">Con diseño en resina</h3>
-                <br/>
-                <em>Dibujos personalizados</em>
-                <a href ="carrito.html"class="carrito-button">Agregar al carrito</a>
-            </article>
-            <article class ="case">
-                <img src="../assets/Fundas_Simpsons-Photoroom.png" alt="Funda 6"/>
-                <h3> Simpsons </h3>
-                <br/>
-                <em>¡Las mejores fundas de los Simpsons!</em>
-                <a href ="carrito.html" class="carrito-button">Agregar al carrito</a>
-            </article>
+
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/funda_negra-Photoroom.png" class="card-img-top" alt="Funda">
+                <div class="card-body">
+                    <h3 class="card-title">Funda negra</h3>
+                        <p class="card-text">El negro combina con todo</p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 14rem;">
+                <img src="/assets/funda_astronauta-Photoroom.png" class="card-img-top" alt="Funda">
+                    <div class="card-body">
+                        <h3 class="card-title">Funda Astronauta</h3>
+                        <p class="card-text">Esta funda te llevará al espacio</p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+            </div>
+
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/funda_silicona-Photoroom.png" class="card-img-top" alt="Funda">
+                <div class="card-body">
+                    <h3 class="card-title">Silicon case</h3>
+                        <p class="card-text">Las mejores fundas de silicona</p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/Fundas_puffer-Photoroom.png" class="card-img-top" alt="Funda">
+                <div class="card-body">
+                    <h3 class="card-title">Puffer</h3>
+                        <p class="card-text">Encontrá tu modelo Puffer</p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/Funda_diseñoresina-Photoroom.png" class="card-img-top" alt="Funda">
+                <div class="card-body">
+                    <h3 class="card-title">Con diseño en resina</h3>
+                        <p class="card-text">Dibujos personalizados</p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 14rem;">
+            <img src="/assets/Fundas_Simpsons-Photoroom.png" class="card-img-top" alt="Funda">
+                <div class="card-body">
+                    <h3 class="card-title">Fundas Simpsons</h3>
+                        <p class="card-text">¡Las mejores fundas de los Simpsons!</p>
+                        <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            
         </section>
 
-        <script src="/Js/listProducts/fundas.js"></script>
         
     </main>
     <footer> 
@@ -92,5 +111,4 @@
         <p>© 2025 Coverz. Todos los derechos reservados.</p>
     </footer>
 </body>
-
 </html>
